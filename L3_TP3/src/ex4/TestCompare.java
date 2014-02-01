@@ -13,9 +13,9 @@ public class TestCompare {
 	 */
 	public static void main(String[] args) {
 		Personne p1 = new Personne("Gon", "Tom", new GregorianCalendar(1992, 10, 5), new Adresse(12, "rue", "20600", "Bastia"));
-		Personne p2 = new Personne("Gon", "Pa", new GregorianCalendar(), new Adresse(12, "rue", "20600", "Bastia"));
-		Personne p3 = new Personne("No", "Pa", new GregorianCalendar(), new Adresse(12, "rue", "20600", "Bastia"));
-		Personne p4 = new Personne("nom", "Prenom", new GregorianCalendar(), new Adresse(12, "rue", "20600", "Bastia"));
+		Personne p2 = new Personne("Gon", "Pa", new GregorianCalendar(1992, 10, 5), new Adresse(12, "rue", "20600", "Bastia"));
+		Personne p3 = new Personne("Nom", "Prenom", new GregorianCalendar(1992, 10, 5), new Adresse(12, "rue", "20600", "Bastia"));
+		Personne p4 = new Personne("nom", "Pa", new GregorianCalendar(1992,10,5), new Adresse(12, "rue", "20600", "Bastia"));
 		
 		List<Personne> lp = new ArrayList<Personne>();
 		lp.add(p1);
